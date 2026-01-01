@@ -38,11 +38,13 @@ section {
       .holder {
         width: 361px;
         gap: 16px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
         display: flex;
         flex-direction: column;
 
         .action {
-          width: 100%;
+          width: 361px;
           gap: 12px;
           display: flex;
           flex-direction: column;
