@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+section {
+  width: 1440px;
+  height: 798px;
+  background: #f6f3ef;
+  position: relative;
+
+  .card-web {
+    width: 1048px;
+    background: #fffffc;
+    position: absolute;
+    top: 203px;
+    left: 196px;
+    display: flex;
+
+    .container {
+      width: 461px;
+      gap: 35px;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        color: #1576d6;
+        width: 349px;
+        font-weight: 600;
+        font-size: 32px;
+        text-align: center;
+      }
+
+      .holder {
+        width: 361px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+
+        .action {
+          width: 100%;
+          gap: 12px;
+          display: flex;
+          flex-direction: column;
+
+          h2 {
+            color: #25292c;
+            width: 110px;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 16px;
+          }
+
+          .Frame-57 {
+            width: 361px;
+            gap: 10px;
+            border-radius: 12px;
+            border-width: 1px;
+            padding-top: 10px;
+            padding-right: 16px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+          }
+        }
+
+        .button_get-start {
+          color: #fffffc;
+          background-color: #25292c;
+          width: 361px;
+          border-radius: 12px;
+          padding-top: 12px;
+          padding-right: 16px;
+          padding-bottom: 12px;
+          padding-left: 16px;
+        }
+        .button_get-start2 {
+          color: #25292c;
+          width: 361px;
+          border-radius: 12px;
+          padding-top: 12px;
+          padding-right: 16px;
+          padding-bottom: 12px;
+          padding-left: 16px;
+          border: 1px solid #f4c123;
+        }
+      }
+    }
+    .Rectangle-66 {
+      width: 587px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      background-image: url(./img-for-task/bc5e7c168db67f8fa0d4c6c3f8a86a95e7d69d95.jpg);
+      background-size: cover;
+    }
+  }
+}
