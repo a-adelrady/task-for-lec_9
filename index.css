@@ -19,6 +19,8 @@ section {
     top: 203px;
     left: 196px;
     display: flex;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 
     .container {
       width: 461px;
@@ -38,8 +40,7 @@ section {
       .holder {
         width: 361px;
         gap: 16px;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
+
         display: flex;
         flex-direction: column;
 
